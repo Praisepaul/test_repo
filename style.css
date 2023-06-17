@@ -1,0 +1,54 @@
+html { overflow-x: hidden; }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    line-height: 2em;
+    overflow-x: hidden;
+    background-image: linear-gradient(rgb(156, 249, 228), rgb(177, 124, 211));
+}
+#home{
+    background-image: url(IMG_20220410_154417604_BURST001.jpg);
+    background-size: cover;
+}
+.navbar-nav a{
+    color: rgb(101, 12, 87);
+}
+.intro{
+    padding-top: 21rem;
+    color: rgb(44, 27, 155);
+    padding-left: 5rem;
+    
+}
+.intro .span{
+    color: rgb(163, 42, 165);
+    font-weight: bolder;
+    font-size: 70px;
+}
+.hello{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-larger;
+}
+.name{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: xx-large;
+    font-weight: lighter;
+    color: rgb(163, 42, 165);
+}
+.about{
+    padding-left: 2rem;
+    color: rgb(1, 106, 219);
+}
+.right{
+    float: right;
+    width: 70%;
+}
+.left{
+    float: left;
+    width: 50%;
+}
