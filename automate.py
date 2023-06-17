@@ -17,7 +17,7 @@ for _ in range(num_iterations):
 # Create a new instance of ChromeDriver with the desired options
     driver = webdriver.Chrome(options=chrome_options)
 
-# Open the link in incognito mode
+# Open the provided link in incognito mode
     link = "https://www.vahanischolarship.com/post/my-journey-with-the-captivating-vahani-english-programme"
 
     # Load the page
